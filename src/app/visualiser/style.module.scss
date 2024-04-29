@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+.visualiser {
+  .header {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #ff758f;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+
+    .sliders {
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+
+      .size {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        label {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+      .speed {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .buttons {
+      padding: 1rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      .btn {
+        color: white;
+        font-family: inherit;
+        font-weight: bold;
+        background-color: #8431ff;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem;
+        transition: all 0.2s;
+
+        &:hover {
+          background-color: #9762e6;
+          cursor: pointer;
+          transform: translateY(-0.25rem);
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-end;
+    padding: 0 20px 20px 20px;
+    justify-content: center;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #ff758f;
+
+    .arrayBar {
+      background-color: black;
+      border-radius: 5px;
+    }
+  }
+}
